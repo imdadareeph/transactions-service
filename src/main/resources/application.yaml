@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: transactions-service
+
+benchmark:
+  default-airline: SQ
+  default-date: 2026-01-15
+  default-concurrency: 100
+  payload-bytes: 1024
+  db-delay-ms: 600
+  cpu-iterations: 2000

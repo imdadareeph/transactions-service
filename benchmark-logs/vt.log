@@ -1,0 +1,79 @@
+Starting transactions-service with profile=vt JAVA_HOME=/Users/imdadareeph/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.ia.vt:transactions-service >-------------------
+[INFO] Building transactions-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ transactions-service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ transactions-service ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ transactions-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ transactions-service ---
+[INFO] skip non existing resourceDirectory /Users/imdadareeph/Documents/dev/git/imdadareeph/transactions-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ transactions-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ transactions-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.5:run (default-cli) @ transactions-service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v3.2.5)[0;39m
+
+[2m2026-02-02T02:14:48.451+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.TransactionsServiceApplication  [0;39m [2m:[0;39m Starting TransactionsServiceApplication using Java 22.0.1 with PID 91507 (/Users/imdadareeph/Documents/dev/git/imdadareeph/transactions-service/target/classes started by imdadareeph in /Users/imdadareeph/Documents/dev/git/imdadareeph/transactions-service)
+[2m2026-02-02T02:14:48.452+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.TransactionsServiceApplication  [0;39m [2m:[0;39m The following 1 profile is active: "vt"
+[2m2026-02-02T02:14:48.466+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2026-02-02T02:14:48.466+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2026-02-02T02:14:48.744+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 9191 (http)
+[2m2026-02-02T02:14:48.748+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2026-02-02T02:14:48.748+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2m2026-02-02T02:14:48.762+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2026-02-02T02:14:48.762+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 295 ms
+[2m2026-02-02T02:14:48.780+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.benchmark.PerformanceLogger     [0;39m [2m:[0;39m ---------------------------------------------------------------------------------------------------------------
+[2m2026-02-02T02:14:48.780+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.benchmark.PerformanceLogger     [0;39m [2m:[0;39m | PROF | MODEL          | ENDPOINT                     | AIRLN | DATE       | C | DB_MS | CPU_MS | TOTAL_MS | PAYLOAD | THREAD                  | ST |
+[2m2026-02-02T02:14:48.780+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.benchmark.PerformanceLogger     [0;39m [2m:[0;39m ---------------------------------------------------------------------------------------------------------------
+[2m2026-02-02T02:14:48.905+04:00[0;39m [33m WARN[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m Unable to start LiveReload server
+[2m2026-02-02T02:14:48.914+04:00[0;39m [33m WARN[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[2m2026-02-02T02:14:48.914+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.benchmark.PerformanceLogger     [0;39m [2m:[0;39m ====================================================================================================
+[2m2026-02-02T02:14:48.914+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.benchmark.PerformanceLogger     [0;39m [2m:[0;39m | PROFILE | AIRLINE | TOTAL_REQ | FAILED | AVG_MS | P95_MS | RPS   | TRANSFER_KB_SEC |
+[2m2026-02-02T02:14:48.914+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.benchmark.PerformanceLogger     [0;39m [2m:[0;39m ====================================================================================================
+[2m2026-02-02T02:14:48.915+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.benchmark.PerformanceLogger     [0;39m [2m:[0;39m | Virtual Threads | --      |         0 |      0 |      0 |      0 |   0.0 |              0.0 |
+[2m2026-02-02T02:14:48.915+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mc.i.v.t.benchmark.PerformanceLogger     [0;39m [2m:[0;39m ====================================================================================================
+[2m2026-02-02T02:14:48.920+04:00[0;39m [32m INFO[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2m2026-02-02T02:14:48.924+04:00[0;39m [31mERROR[0;39m [35m91507[0;39m [2m---[0;39m [2m[transactions-service] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9191 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9191 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.325 s
+[INFO] Finished at: 2026-02-02T02:14:48+04:00
+[INFO] ------------------------------------------------------------------------
